@@ -5,16 +5,22 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-body, html, main{
+body, html{
     height: 100%;
     width: 100%;
+    overflow-x: hidden;
+    /* background-color: rebeccapurple; */
+}
+
+#hero-section{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
 }
 
 nav{
     /* background-color: aquamarine; */
-    height: 50px;
-    width: 100%;
-    padding: 40px;
+    padding: 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -42,8 +48,7 @@ a{
 
 #otherlinks{
     /* background-color: aqua; */
-    height: 30px;
-    width: 100%;
+    height: 4vw;
     padding: 40px;
     display: flex;
     align-items: center;
@@ -61,15 +66,14 @@ a{
 
 .head-img{
     height: 90vh;
-    width: 80vw;
-    object-fit: cover;
-    margin-left: 50%;
-    transform: translateX(-50%);
+    width: 90vw;
+    object-fit:cover;
+
 }
 
 .img-heading{
-    height: 500px;
-    width: 500px;
+    height: 35%;
+    width: 35%;
     position: absolute;
     z-index: 10;
     left: 50%;
