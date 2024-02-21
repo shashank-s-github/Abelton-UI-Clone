@@ -12,9 +12,10 @@ body, html{
     /* background-color: rebeccapurple; */
 }
 
+/* =============hero-section================ */
 #hero-section{
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     position: relative;
 }
 
@@ -68,6 +69,7 @@ a{
     height: 90vh;
     width: 90vw;
     object-fit:cover;
+    padding-left: 200px;
 
 }
 
@@ -81,5 +83,91 @@ a{
     transform: translate(-50%, -50%);
 }
 
+/* =============mid-section -1================ */
 
+#mid-1{
+    height: 150vh;
+    width: 100vw;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.mid-1-para{
+    font-size: 25px;
+    line-height: 1.5;
+}
+
+.mid-1-para p{
+    padding-top: 40px;
+    font-size: 20px;
+}
+
+.mid-1-para span{
+    color: blue;
+}
+
+.mid-1-image{
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: 200px;
+    
+}
+.bg{
+    height: 850px;
+    width: 60vw;
+    background-color: #FBFFA7;
+    z-index: -10;
+    position: absolute;
+    left: 40%;
+}
+.mid-img-first{
+    height: 600px;
+    width: 600px;
+}
+.mid-img-second{
+  padding-left: 120px;
+  height: 400px;
+  width: 600px;
+}
+
+/* ===============mid-section-2=============== */
+ 
+#mid-2{
+    height: auto;
+    width: 100vw;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.mid-2-para{
+    font-size: 25px;
+    line-height: 1.5;
+}
+
+.mid-2-para p{
+    padding-top: 40px;
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+
+.svg-image{
+    position: relative;
+    z-index: 1;
+    margin-bottom: 15%;
+    left: 50%;
+}
+
+h6{
+    font-size: 15px;
+    margin-left: -505px;
+}
+
+/* ===============mid-section-3=============== */
 
