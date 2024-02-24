@@ -141,8 +141,8 @@ h6 {
 }
 
 /* ===============mid-section-3=============== */
+
 #mid-3 {
-  /* background-color: rebeccapurple; */
   height: 100vh;
   width: 100vw;
   margin-top: 100px;
@@ -184,15 +184,9 @@ h6 {
 
 /* ===============FOOTER=============== */
 #footer {
-  /* background-color: rebeccapurple; */
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 200px 200px 200px;
-}
-
-.about {
-  /* border: 2px solid black; */
-  /* background-color: red; */
 }
 
 #first {
@@ -285,7 +279,6 @@ h6 {
   font-size: 20px;
 }
 #six {
-  /* background-color: chocolate; */
   grid-column: 1/3;
   padding-left: 78px;
   padding-top: 30px;
@@ -319,7 +312,6 @@ h6 {
 /* ============================================ */
 
 #More {
-  /* background-color: rebeccapurple; */
   height: 50vh;
   width: 100vw;
   display: flex;
@@ -342,11 +334,9 @@ h6 {
 }
 
 .more2 {
-  /* background-color: red; */
   display: flex;
   flex-direction: column;
   font-size: 25px;
-  /* padding: 55px; */
 }
 
 .more2 h3 {
@@ -354,16 +344,11 @@ h6 {
 }
 
 .more2-inner {
-  /* background-color: aqua; */
   padding-top: 50px;
   padding-left: 10px;
   display: flex;
   justify-content: space-around;
   white-space: nowrap;
-}
-
-.more2-inner-links {
-  /* padding-left: 20px; */
 }
 
 .more2-inner-links h4 {
@@ -373,7 +358,7 @@ h6 {
 .more2-inner-links p {
   font-size: 17px;
 }
-/* =========================================================== */
+/* ==================Recreating hero section here========================================= */
 
 #hero-nav {
   display: block;
